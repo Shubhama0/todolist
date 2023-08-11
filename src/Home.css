@@ -1,0 +1,58 @@
+
+
+.container{
+background-color: rgb(225, 197, 160);
+width: 50%;
+margin: auto;
+/* min-height: 100vh; */
+}
+
+.container form{
+    margin-top:20px; 
+   display: flex; 
+   flex-direction: column;
+}
+
+.container form input{
+font-size:xx-large; 
+min-height: 5vh;
+border: 2px solid rgb(4, 4, 4);
+ margin-top: 5px; 
+ background-color: rgb(252, 251, 251);
+ border-radius: 5px;
+
+}
+
+.container form textarea{
+    font-size: x-large; 
+    min-height: 15vh;
+    border: 2px solid rgb(9, 9, 9);
+     margin-top: 10px; 
+     resize: none; 
+     /* background-color: aliceblue;  */
+     border-radius: 5px;
+    }
+
+    .container form button{
+        font-size: x-large; 
+        min-height: 6vh;
+        border: 3px solid rgb(203, 226, 156);
+         margin-top: 10px; 
+         margin-bottom: 10px; 
+         background-color: rgb(10, 227, 21);
+         border-radius: 10px;  
+        }
+
+        .empty{
+            display: flex;
+            align-items: center;
+            font-size: xx-large; 
+            min-height: 6vh;
+            border: 3px solid rgb(203, 226, 156);
+             margin-top: 40px; 
+             background-color: rgb(229, 97, 36); 
+margin-left: 40% ;
+padding:8px ;
+border-radius: 10px;
+
+        }
